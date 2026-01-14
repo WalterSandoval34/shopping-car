@@ -1,0 +1,15 @@
+.header {
+  background-color: rgb(100, 0, 128);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-product-btn {
+  background-color: pink;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}

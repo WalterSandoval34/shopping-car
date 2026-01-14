@@ -1,0 +1,13 @@
+.thankyou-message {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.whatsapp-logo {
+  width: 30px;
+  height: 30px;
+}

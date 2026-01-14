@@ -1,0 +1,26 @@
+.pay-button {
+  background-color: #25d366; /* verde WhatsApp */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pay-button:hover {
+  background-color: #128c7e;
+}
+
+.thankyou-message {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.whatsapp-logo {
+  width: 30px;
+  height: 30px;
+}

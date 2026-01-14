@@ -1,0 +1,25 @@
+.main {
+  padding: 2rem;
+}
+
+.product-grid {
+  display: flex;              
+  gap: 1.5rem;                
+  overflow-x: auto;           
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
+
+.product-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.product-grid::-webkit-scrollbar-thumb {
+  background: #2E7D32;       
+  border-radius: 4px;
+}
+
+.card {
+  flex: 0 0 auto;            
+  scroll-snap-align: start;   
+}
